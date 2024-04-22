@@ -127,7 +127,7 @@ Our BiPer was trained on CIFAR-10 and ImageNet datasets. You can download the da
 ## CIFAR10
 
 ### Training
-To train a model using BiPer, we follow two stages. In the first stage, we train the model using {}. In the second stage, we finetune the model using {}.
+Our approach consists of a two-stage training strategy. In the first stage, the network is trained with real weights and binary features. Then, in the second stage, a warm weight initialization is employed based on the binary representation of the output weights from the first stage, and the model is fully trained to binarize the weights. Thus, the problem is split into two subproblems: weight and feature binarization.
 
 #### Stage 1
 To train stage1, you can use a similar command as follows:
