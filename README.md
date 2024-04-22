@@ -332,7 +332,7 @@ If you use the code or models from this project in your research, please cite ou
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Biper is distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -362,7 +362,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This work was supported by the Vicerrectoría de Investigacion y Extensión of Universidad Industrial de Santander (UIS), Colombia under the research project **VIE-3735**.
+- Our code is based on the ReCU repository: https://github.com/z-hXu/ReCU. We thank the authors for making their code publicly available.
+- This work was supported by the Vicerrectoría de Investigacion y Extensión of Universidad Industrial de Santander (UIS), Colombia under the research project **VIE-3735**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
