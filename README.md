@@ -346,7 +346,7 @@ Biper is distributed under the MIT License. See `LICENSE` for more information.
 - Edwin Vargas
   - Linkedin: https://www.linkedin.com/in/edwin-vargas-80ab7873/
   - Twitter: [@edmav47](https://twitter.com/edmav47)
-  - Email: email@example.com
+  - Email: edwin.vargas@rice.edu
   - Webpage: https://www.researchgate.net/profile/Edwin-Vargas-13
 
 - Carlos Hinojosa
