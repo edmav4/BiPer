@@ -214,13 +214,11 @@ Please specify the model and data path in the script.
 
 ### Pretrained Models
 
-|      Model      |   Dataset    | Params (M)  | Top-1  |                                               Config                                               |                                            Download                                            |
-|:---------------:|:------------:|:-----------:|:------:|:--------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-| BiPer-ResNet18  |   CIFAR-10   |    11.01    | 93.75  | [Config File](https://drive.google.com/file/d/1xyAyEmiiahOiMrbZt_8Ee8WStHW951tC/view?usp=sharing)  | [Model](https://drive.google.com/file/d/1vye9pCvRcfNtOrErZDtU5OKzA9_2-S_-/view?usp=drive_link) |
-| BiPer-ResNet20  |   CIFAR-10   |    0.27     | 87.50  | [Config File](https://drive.google.com/file/d/14AE4O27soD8H7kdBpC40MpVBycykJS-N/view?usp=sharing)  | [Model](https://drive.google.com/file/d/1s5iMXNzY4jQmum-pjRX7AgFJ4Qcj9zQ5/view?usp=drive_link) |
-| BiPer-VGG-Small |   CIFAR-10   |    4.66     | 92.460 | [Config File](https://drive.google.com/file/d/1nZDhab8SIbLyIqiOCvAek0lnMwb8LM_q/view?usp=sharing)  |[Model](https://drive.google.com/file/d/1mGFhfCENjYcqx-WCnqgBlq5sOToWfE-x/view?usp=drive_link)  |
-
-[//]: # (\| [Log]&#40;URL_to_log&#41;)
+| Quantized Model |   Dataset    | Params (M)  | Top-1 |                                               Config                                               |                                                                                          Download                                                                                           |
+|:---------------:|:------------:|:-----------:|:-----:|:--------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| BiPer-ResNet18  |   CIFAR-10   |    11.01    | 93.75 | [Config File](https://drive.google.com/file/d/1_Z4Fxe0I6ZKdZVbdCvg_9WGQSCwbpkSk/view?usp=sharing)  | [Model](https://drive.google.com/file/d/1_Y_kLZ6uVNcjtSHPI3QCVIibmbR9XBsW/view?usp=drive_link) \| [Log](https://drive.google.com/file/d/1_ZbmRPQFvSDg6aGwjhmXkJ7RzGvKfWHm/view?usp=sharing) |
+| BiPer-ResNet20  |   CIFAR-10   |    0.27     | 86.98 | [Config File](https://drive.google.com/file/d/14AE4O27soD8H7kdBpC40MpVBycykJS-N/view?usp=sharing)  | [Model](https://drive.google.com/file/d/1s5iMXNzY4jQmum-pjRX7AgFJ4Qcj9zQ5/view?usp=drive_link) \| [Log](https://drive.google.com/file/d/12-lvVYXMjPyUGnMvDUdaqz96PMRx9QwL/view?usp=sharing) |
+| BiPer-VGG-Small |   CIFAR-10   |    4.66     | 92.46 | [Config File](https://drive.google.com/file/d/1nZDhab8SIbLyIqiOCvAek0lnMwb8LM_q/view?usp=sharing)  | [Model](https://drive.google.com/file/d/1mGFhfCENjYcqx-WCnqgBlq5sOToWfE-x/view?usp=drive_link) \| [Log](https://drive.google.com/file/d/1yTL2Hg2kVDIGceTMp8EU6iQ-QB8_lx8E/view?usp=sharing) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -308,10 +306,10 @@ python main_stage2.py \
 <a name="inet-res"></a>
 ### Pretrained Models
 
-|     Model      |  Dataset   | Params (M) | Top-1 |      Config       |                                          Download                                           |
-|:--------------:|:----------:|:----------:|:-----:|:-----------------:|:-------------------------------------------------------------------------------------------:|
-| BiPer-ResNet18 | ImageNet1K |   11.69    | 61.40 | [Config File](https://drive.google.com/file/d/1Kvc82rtf1-bWB-GsLjybSFPyEqfz0y0e/view?usp=sharing) | [Model](https://drive.google.com/file/d/1mUPcohyRk4_NLWXO8TMcIWRb606wMSlc/view?usp=sharing) |
-| BiPer-ResNet34 | ImageNet1K |   21.81    | 65.73 | [Config File](https://drive.google.com/file/d/1GdUNclCntpsE2XnqlTafJSf0Si-luxqc/view?usp=sharing) | [Model](https://drive.google.com/file/d/10ACakHYVBlWeoNACBbNwvFoIjk-kTwBn/view?usp=sharing) |
+| Quantized Model |  Dataset   | Params (M) | Top-1 |                                              Config                                               |                                                                                         Download                                                                                         |
+|:---------------:|:----------:|:----------:|:-----:|:-------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| BiPer-ResNet18  | ImageNet1K |   11.69    | 61.40 | [Config File](https://drive.google.com/file/d/1Kvc82rtf1-bWB-GsLjybSFPyEqfz0y0e/view?usp=sharing) | [Model](https://drive.google.com/file/d/1mUPcohyRk4_NLWXO8TMcIWRb606wMSlc/view?usp=sharing) \| [Log](https://drive.google.com/file/d/1uyHhLDZFtFAZheoBTMmDVxJmUHEB3qKl/view?usp=sharing) |
+| BiPer-ResNet34  | ImageNet1K |   21.81    | 65.73 | [Config File](https://drive.google.com/file/d/1GdUNclCntpsE2XnqlTafJSf0Si-luxqc/view?usp=sharing) | [Model](https://drive.google.com/file/d/10ACakHYVBlWeoNACBbNwvFoIjk-kTwBn/view?usp=sharing) \| [Log](https://drive.google.com/file/d/1Zcg774KLF78nLCFKTiJn7_p2Lakp_toJ/view?usp=sharing) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- 11694376 Resnet18 -->
