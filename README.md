@@ -320,11 +320,13 @@ python main_stage2.py \
 If you use the code or models from this project in your research, please cite our work as follows:
 
 ```Latex
-@article{vargas2024biper,
-  title={BiPer: Binary Neural Networks using a Periodic Function},
-  author={Vargas, Edwin and Correa, Claudia and Hinojosa, Carlos and Arguello, Henry},
-  journal={arXiv preprint arXiv:2404.01278},
-  year={2024}
+@InProceedings{vargas2024biper,
+    author    = {Vargas, Edwin and Correa, Claudia V. and Hinojosa, Carlos and Arguello, Henry},
+    title     = {BiPer: Binary Neural Networks using a Periodic Function},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {5684-5693}
 }
 ```
 
